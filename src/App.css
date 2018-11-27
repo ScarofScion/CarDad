@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  background-color: rgb(145, 160, 163);
+  font-family: Rockwell;
+}
+
+.App-header {
+  border: 1px solid green;
+  color: red;
+  display: inline-block;
+  width: auto;
+}
+
+.App-title {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  display: inline-block;
+  width: auto;
+}
+
+.App-body {
+  background-color: rgb(45, 50, 51);
+  color: rgb(69, 172, 212);
+}
