@@ -41,7 +41,9 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      urls: []
+      urls: [],
+      array: ["1", "2", "3", "4", "21"],
+      cats: []
     };
   }
 
@@ -83,7 +85,7 @@ class App extends Component {
         </div>
         <div className="App-body">
           <h1>Body</h1>
-          <ImgList data={this.state.urls} />
+          <ImgList data={this.state.urls} array={this.state.urls} />
         </div>
       </div>
     );
