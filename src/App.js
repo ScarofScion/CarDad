@@ -64,8 +64,9 @@ class App extends Component {
         // Document was found in the cache. If no cached document exists,
         // an error will be returned to the 'catch' block below.
         console.log("Cached document data:", response.data());
+        const catDoc = response.data();
         this.setState({
-          urls: response.data()
+          urls: catDoc.urls,
         });
       })
       .catch(function(error) {
