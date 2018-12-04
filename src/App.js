@@ -64,15 +64,14 @@ class App extends Component {
         // Document was found in the cache. If no cached document exists,
         // an error will be returned to the 'catch' block below.
         console.log("Cached document data:", response.data());
-<<<<<<< HEAD
+
         const catDocument = response.data();
         this.setState({ urls: catDocument.urls });
-=======
+
         const catDoc = response.data();
         this.setState({
-          urls: catDoc.urls,
+          urls: catDoc.urls
         });
->>>>>>> origin/fix-cat-images
       })
       .catch(function(error) {
         console.log("Error getting cached document:", error);
